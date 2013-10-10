@@ -1,0 +1,24 @@
+<s:Skin xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		xmlns:s="library://ns.adobe.com/flex/spark" >
+	
+	<fx:Metadata>[HostComponent("Object")]</fx:Metadata>
+	
+	<s:states>
+		<s:State name="normal" />
+		<s:State name="disabled" />
+		<s:State name="normalAndInactive" />
+		<s:State name="disabledAndInactive" />
+	</s:states>
+	
+	<s:Rect id="backgroundRect" left="0" right="0" top="0" bottom="0" >
+		<s:fill>
+			<s:SolidColor id="backgroundFill" color="0xffffff" />
+		</s:fill>
+	</s:Rect>
+	
+	<s:TitleBar left="0" right="0" top="0" height="24" 
+				skinClass="skin.TitleSkin" />
+	
+	<s:Group id="contentGroup" left="0" right="0" top="25" bottom="0" />
+	
+</s:Skin>
